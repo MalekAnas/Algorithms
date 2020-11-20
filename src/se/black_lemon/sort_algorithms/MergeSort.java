@@ -1,6 +1,5 @@
 package se.black_lemon.sort_algorithms;
 
-import org.jetbrains.annotations.NotNull;
 
 public class MergeSort {
 
@@ -34,7 +33,7 @@ public class MergeSort {
     }
 
     // { 20, 35, -15, 7, 55, 1, -22 }
-    public static void merge(int @NotNull [] input, int start, int mid, int end) {
+    public static void merge(int   [] input, int start, int mid, int end) {
 
         if (input[mid - 1] <= input[mid]) {
             return;
